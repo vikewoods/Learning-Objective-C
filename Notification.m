@@ -23,4 +23,8 @@
   [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
 }
 
+-(IBAction)printButton:(id)sender{
+  NSLog(@"Print worked!");
+}
+
 @end

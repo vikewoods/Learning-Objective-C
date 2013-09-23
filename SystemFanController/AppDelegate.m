@@ -16,10 +16,19 @@
   // Insert code here to initialize your application
   Initial *programInit;
   programInit = [[Initial alloc] init];
-  
   [programInit initialise];
-  
-    //[programInit terminate:nil];
+}
+
+-(IBAction)applyButton:(id)sender{
+  Notification *buttonNotification;
+  buttonNotification = [[Notification alloc] init];
+  [buttonNotification pushNotificationToUser:nil withTitle:@"Button has been pressed!" withText:@"Your press apply button! WOW!" withActionButton:true];
+}
+
+-(IBAction)closeApp:(id)sender{
+  Initial *programInit;
+  programInit = [[Initial alloc] init];
+  [programInit terminate:nil];
 }
 
 @end

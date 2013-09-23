@@ -11,5 +11,5 @@
 @interface Notification : NSObject
 
 -(IBAction)pushNotificationToUser:(id)sender withTitle:(NSString *)title withText:(NSString *)text withActionButton:(BOOL)actionbutton;
-
+-(IBAction)printButton:(id)sender;
 @end

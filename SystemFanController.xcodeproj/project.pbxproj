@@ -23,6 +23,8 @@
 		CA09133E17F0D12D00605535 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA09133D17F0D12D00605535 /* CoreServices.framework */; };
 		CA39330E17F0D15800BD42FA /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = CA39330D17F0D15800BD42FA /* Notification.m */; };
 		CA39331317F0D7B300BD42FA /* Initial.m in Sources */ = {isa = PBXBuildFile; fileRef = CA39331217F0D7B300BD42FA /* Initial.m */; };
+		CA39331617F0EA0900BD42FA /* mbp.icns in Resources */ = {isa = PBXBuildFile; fileRef = CA39331517F0EA0900BD42FA /* mbp.icns */; };
+		CA39331817F0F24C00BD42FA /* mbp-about.png in Resources */ = {isa = PBXBuildFile; fileRef = CA39331717F0F24C00BD42FA /* mbp-about.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		CA39330D17F0D15800BD42FA /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
 		CA39331117F0D7B300BD42FA /* Initial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initial.h; sourceTree = "<group>"; };
 		CA39331217F0D7B300BD42FA /* Initial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initial.m; sourceTree = "<group>"; };
+		CA39331517F0EA0900BD42FA /* mbp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mbp.icns; sourceTree = "<group>"; };
+		CA39331717F0F24C00BD42FA /* mbp-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbp-about.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 		CA09130D17F0D10900605535 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA39331717F0F24C00BD42FA /* mbp-about.png */,
+				CA39331517F0EA0900BD42FA /* mbp.icns */,
 				CA09130E17F0D10900605535 /* SystemFanController-Info.plist */,
 				CA09130F17F0D10900605535 /* InfoPlist.strings */,
 				CA09131217F0D10900605535 /* main.m */,
@@ -277,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA39331617F0EA0900BD42FA /* mbp.icns in Resources */,
+				CA39331817F0F24C00BD42FA /* mbp-about.png in Resources */,
 				CA09131117F0D10900605535 /* InfoPlist.strings in Resources */,
 				CA09131F17F0D10900605535 /* Images.xcassets in Resources */,
 				CA09131717F0D10900605535 /* Credits.rtf in Resources */,
