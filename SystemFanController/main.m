@@ -7,8 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Initial.h"
 
 int main(int argc, const char * argv[])
 {
+  
+    //Notification *userNotificationProc;
+    //userNotificationProc = [[Notification alloc] init];
+ 
+  
   return NSApplicationMain(argc, argv);
 }

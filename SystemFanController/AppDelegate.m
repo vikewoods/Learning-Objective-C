@@ -7,12 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "Initial.h"
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
   // Insert code here to initialize your application
+  Initial *programInit;
+  programInit = [[Initial alloc] init];
+  
+  [programInit initialise];
+  
+    //[programInit terminate:nil];
 }
 
 @end

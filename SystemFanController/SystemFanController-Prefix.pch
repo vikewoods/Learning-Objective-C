@@ -6,4 +6,7 @@
 
 #ifdef __OBJC__
   #import <Cocoa/Cocoa.h>
+  #import <Foundation/Foundation.h>
+  #import <CoreServices/CoreServices.h>
+  #import <IOKit/IOKitLib.h>
 #endif
