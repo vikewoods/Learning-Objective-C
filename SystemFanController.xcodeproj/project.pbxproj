@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA09130717F0D10900605535 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA09130617F0D10900605535 /* Cocoa.framework */; };
+		CA09131117F0D10900605535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA09130F17F0D10900605535 /* InfoPlist.strings */; };
+		CA09131317F0D10900605535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09131217F0D10900605535 /* main.m */; };
+		CA09131717F0D10900605535 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CA09131517F0D10900605535 /* Credits.rtf */; };
+		CA09131A17F0D10900605535 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09131917F0D10900605535 /* AppDelegate.m */; };
+		CA09131D17F0D10900605535 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA09131B17F0D10900605535 /* MainMenu.xib */; };
+		CA09131F17F0D10900605535 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA09131E17F0D10900605535 /* Images.xcassets */; };
+		CA09132617F0D10900605535 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA09132517F0D10900605535 /* XCTest.framework */; };
+		CA09132717F0D10900605535 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA09130617F0D10900605535 /* Cocoa.framework */; };
+		CA09132F17F0D10900605535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA09132D17F0D10900605535 /* InfoPlist.strings */; };
+		CA09133117F0D10900605535 /* SystemFanControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09133017F0D10900605535 /* SystemFanControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA09132817F0D10900605535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0912FB17F0D10900605535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA09130217F0D10900605535;
+			remoteInfo = SystemFanController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA09130317F0D10900605535 /* SystemFanController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemFanController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA09130617F0D10900605535 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA09130917F0D10900605535 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CA09130A17F0D10900605535 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA09130B17F0D10900605535 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA09130E17F0D10900605535 /* SystemFanController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SystemFanController-Info.plist"; sourceTree = "<group>"; };
+		CA09131017F0D10900605535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA09131217F0D10900605535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA09131417F0D10900605535 /* SystemFanController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SystemFanController-Prefix.pch"; sourceTree = "<group>"; };
+		CA09131617F0D10900605535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CA09131817F0D10900605535 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA09131917F0D10900605535 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA09131C17F0D10900605535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CA09131E17F0D10900605535 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA09132417F0D10900605535 /* SystemFanControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemFanControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA09132517F0D10900605535 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CA09132C17F0D10900605535 /* SystemFanControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SystemFanControllerTests-Info.plist"; sourceTree = "<group>"; };
+		CA09132E17F0D10900605535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA09133017F0D10900605535 /* SystemFanControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemFanControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA09130017F0D10900605535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09130717F0D10900605535 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA09132117F0D10900605535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09132717F0D10900605535 /* Cocoa.framework in Frameworks */,
+				CA09132617F0D10900605535 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0912FA17F0D10900605535 = {
+			isa = PBXGroup;
+			children = (
+				CA09130C17F0D10900605535 /* SystemFanController */,
+				CA09132A17F0D10900605535 /* SystemFanControllerTests */,
+				CA09130517F0D10900605535 /* Frameworks */,
+				CA09130417F0D10900605535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA09130417F0D10900605535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA09130317F0D10900605535 /* SystemFanController.app */,
+				CA09132417F0D10900605535 /* SystemFanControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA09130517F0D10900605535 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA09130617F0D10900605535 /* Cocoa.framework */,
+				CA09132517F0D10900605535 /* XCTest.framework */,
+				CA09130817F0D10900605535 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA09130817F0D10900605535 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA09130917F0D10900605535 /* AppKit.framework */,
+				CA09130A17F0D10900605535 /* CoreData.framework */,
+				CA09130B17F0D10900605535 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CA09130C17F0D10900605535 /* SystemFanController */ = {
+			isa = PBXGroup;
+			children = (
+				CA09131817F0D10900605535 /* AppDelegate.h */,
+				CA09131917F0D10900605535 /* AppDelegate.m */,
+				CA09131B17F0D10900605535 /* MainMenu.xib */,
+				CA09131E17F0D10900605535 /* Images.xcassets */,
+				CA09130D17F0D10900605535 /* Supporting Files */,
+			);
+			path = SystemFanController;
+			sourceTree = "<group>";
+		};
+		CA09130D17F0D10900605535 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA09130E17F0D10900605535 /* SystemFanController-Info.plist */,
+				CA09130F17F0D10900605535 /* InfoPlist.strings */,
+				CA09131217F0D10900605535 /* main.m */,
+				CA09131417F0D10900605535 /* SystemFanController-Prefix.pch */,
+				CA09131517F0D10900605535 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA09132A17F0D10900605535 /* SystemFanControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA09133017F0D10900605535 /* SystemFanControllerTests.m */,
+				CA09132B17F0D10900605535 /* Supporting Files */,
+			);
+			path = SystemFanControllerTests;
+			sourceTree = "<group>";
+		};
+		CA09132B17F0D10900605535 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA09132C17F0D10900605535 /* SystemFanControllerTests-Info.plist */,
+				CA09132D17F0D10900605535 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA09130217F0D10900605535 /* SystemFanController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA09133417F0D10900605535 /* Build configuration list for PBXNativeTarget "SystemFanController" */;
+			buildPhases = (
+				CA0912FF17F0D10900605535 /* Sources */,
+				CA09130017F0D10900605535 /* Frameworks */,
+				CA09130117F0D10900605535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemFanController;
+			productName = SystemFanController;
+			productReference = CA09130317F0D10900605535 /* SystemFanController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA09132317F0D10900605535 /* SystemFanControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA09133717F0D10900605535 /* Build configuration list for PBXNativeTarget "SystemFanControllerTests" */;
+			buildPhases = (
+				CA09132017F0D10900605535 /* Sources */,
+				CA09132117F0D10900605535 /* Frameworks */,
+				CA09132217F0D10900605535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA09132917F0D10900605535 /* PBXTargetDependency */,
+			);
+			name = SystemFanControllerTests;
+			productName = SystemFanControllerTests;
+			productReference = CA09132417F0D10900605535 /* SystemFanControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0912FB17F0D10900605535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vik Ewoods";
+				TargetAttributes = {
+					CA09132317F0D10900605535 = {
+						TestTargetID = CA09130217F0D10900605535;
+					};
+				};
+			};
+			buildConfigurationList = CA0912FE17F0D10900605535 /* Build configuration list for PBXProject "SystemFanController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0912FA17F0D10900605535;
+			productRefGroup = CA09130417F0D10900605535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA09130217F0D10900605535 /* SystemFanController */,
+				CA09132317F0D10900605535 /* SystemFanControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA09130117F0D10900605535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09131117F0D10900605535 /* InfoPlist.strings in Resources */,
+				CA09131F17F0D10900605535 /* Images.xcassets in Resources */,
+				CA09131717F0D10900605535 /* Credits.rtf in Resources */,
+				CA09131D17F0D10900605535 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA09132217F0D10900605535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09132F17F0D10900605535 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0912FF17F0D10900605535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09131A17F0D10900605535 /* AppDelegate.m in Sources */,
+				CA09131317F0D10900605535 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA09132017F0D10900605535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09133117F0D10900605535 /* SystemFanControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA09132917F0D10900605535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA09130217F0D10900605535 /* SystemFanController */;
+			targetProxy = CA09132817F0D10900605535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA09130F17F0D10900605535 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA09131017F0D10900605535 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA09131517F0D10900605535 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA09131617F0D10900605535 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CA09131B17F0D10900605535 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA09131C17F0D10900605535 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CA09132D17F0D10900605535 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA09132E17F0D10900605535 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA09133217F0D10900605535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA09133317F0D10900605535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA09133517F0D10900605535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemFanController/SystemFanController-Prefix.pch";
+				INFOPLIST_FILE = "SystemFanController/SystemFanController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA09133617F0D10900605535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemFanController/SystemFanController-Prefix.pch";
+				INFOPLIST_FILE = "SystemFanController/SystemFanController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA09133817F0D10900605535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SystemFanController.app/Contents/MacOS/SystemFanController";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemFanController/SystemFanController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SystemFanControllerTests/SystemFanControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CA09133917F0D10900605535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SystemFanController.app/Contents/MacOS/SystemFanController";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemFanController/SystemFanController-Prefix.pch";
+				INFOPLIST_FILE = "SystemFanControllerTests/SystemFanControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0912FE17F0D10900605535 /* Build configuration list for PBXProject "SystemFanController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA09133217F0D10900605535 /* Debug */,
+				CA09133317F0D10900605535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA09133417F0D10900605535 /* Build configuration list for PBXNativeTarget "SystemFanController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA09133517F0D10900605535 /* Debug */,
+				CA09133617F0D10900605535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA09133717F0D10900605535 /* Build configuration list for PBXNativeTarget "SystemFanControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA09133817F0D10900605535 /* Debug */,
+				CA09133917F0D10900605535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0912FB17F0D10900605535 /* Project object */;
+}
